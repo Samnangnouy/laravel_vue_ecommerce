@@ -5,7 +5,7 @@ import { HomeIcon, UsersIcon, ListBulletIcon, ChartBarIcon } from '@heroicons/vu
 <template>
   <div class="w-[200px] transition-all bg-indigo-700 text-white py-4 px-2">
     <router-link :to="{ name: 'app.dashboard' }"
-      class="flex items-center justify-center p-2 rounded transition-colors hover:bg-black/30">
+      class="flex items-center justify-center p-2 rounded transition-colors">
       <img src="../assets/logo.png" alt="Logo" class="w-40 h-40" />
     </router-link>
 
